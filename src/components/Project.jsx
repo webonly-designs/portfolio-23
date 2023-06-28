@@ -10,7 +10,7 @@ function Project({project}) {
     <div 
         className='border border-gray-300 hover:border-gray-500 hover:bg-white/15 rounded-lg bg-white/25 transition duration-500 fade-out h-full'
     >
-        <div className='w-full h-96 md:h-72 relative'>
+        <div className='w-full h-72 relative'>
             <Image src={project.image} fill className='object-cover rounded-t-lg' />
         </div>
         <div className='flex flex-col space-y-3 px-3 py-5 relative'>
