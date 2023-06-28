@@ -16,7 +16,7 @@ function Projects({projects}) {
                 Spearheaded a range of diverse tech projects, overcoming complex challenges and bringing forth transformative solutions that elevate user experiences.
             </p>
         </div> 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 pt-8'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 pt-12'>
             {projects.map(project => (
                 <Link key={project._id} href="/">
                     <Project project={project}/>

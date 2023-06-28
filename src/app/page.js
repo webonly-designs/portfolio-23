@@ -1,3 +1,4 @@
+import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
 import Highlight from '@/components/Highlight'
 import Projects from '@/components/Projects'
@@ -12,6 +13,7 @@ export default async function Home() {
      <Highlight />
      <Skills />
      <Projects projects={projects} /> 
+     <Contact />
    </div>
   )
 }
