@@ -20,10 +20,10 @@ function Project({project}) {
                     <Tech category={category} />
                 ))}
             </div>
-            <Link href="/" className='flex items-center gap-2 font-medium text-slate-600 hover:text-slate-950'>
+            <div className='flex items-center gap-2 font-medium text-slate-600 hover:text-slate-950'>
                 View full project
                 <FaArrowRight className='w-4 h-4'/>
-            </Link>
+            </div>
         </div>
     </div>
   )
