@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import Tech from './Tech'
-import Link from 'next/link'
 import { FaArrowRight } from 'react-icons/fa'
 
 function Project({project}) {
