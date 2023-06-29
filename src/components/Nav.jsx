@@ -13,7 +13,7 @@ const Nav = () => {
     <nav className='max-w-7xl mx-auto p-5 flex justify-between items-center relative'>
         <Logo />
         <div className='hidden lg:flex items-center space-x-12'>
-            <Link href="/home" className='nav_link'>
+            <Link href="/" className='nav_link'>
                 Home
             </Link>
             <Link href="/about" className='nav_link'>
@@ -36,7 +36,7 @@ const Nav = () => {
                             <FaWindowClose className='w-6 h-6 cursor-pointer text-gray-600 hover:text-gray-950' onClick={() => setIsMenuOpen(false)} />
                         </div>
                         <div className='flex flex-col space-y-4'>
-                            <Link href="/home" className='nav_link' onClick={() => setIsMenuOpen(false)}>
+                            <Link href="/" className='nav_link' onClick={() => setIsMenuOpen(false)}>
                                 Home
                             </Link>
                             <Link href="/about" className='nav_link' onClick={() => setIsMenuOpen(false)}>

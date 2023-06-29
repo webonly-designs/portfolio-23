@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Projects({projects}) {
   return (
-    <div className='max-w-7xl mx-auto px-5 pb-20 md:pb-24'>
+    <div className='max-w-7xl mx-auto px-5 pt-8 pb-20 md:pb-24'>
         <div className='flex flex-col items-center justify-center max-w-3xl mx-auto space-y-4 text-center'>
             <h2 
                 className='text-3xl md:text-4xl leading-[3rem] lg:leading-[4rem] tracking-wide text-slate-950 font-bold
