@@ -28,3 +28,5 @@ function Projects({projects}) {
 }
 
 export default Projects
+
+export const dynamic = 'force-dynamic'
