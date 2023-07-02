@@ -11,6 +11,16 @@ export default defineType({
       type: 'string',
     }),
     defineField({
+      name: 'gitLink',
+      title: 'Github link',
+      type: 'string',
+    }),
+    defineField({
+      name: 'liveLink',
+      title: 'Live Link',
+      type: 'string',
+    }),
+    defineField({
       name: 'featured',
       title: 'Is this project featured??',
       type: 'boolean',

@@ -18,7 +18,7 @@ function Projects({projects}) {
         </div> 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5 pt-12'>
             {projects.map(project => (
-                <Link key={project._id} href="/">
+                <Link key={project._id} href={`/project/${project.slug}`}>
                     <Project project={project}/>
                 </Link>
             ))}
