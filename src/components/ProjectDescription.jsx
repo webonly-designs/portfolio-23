@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Tech from './Tech'
 import Link from 'next/link'
+import { PortableText } from '@portabletext/react'
+import { RichTextComponents } from './RichTextComponents'
 
 function ProjectDescription({ project }) {
   return (
@@ -32,11 +34,12 @@ function ProjectDescription({ project }) {
                     
                 </div>
                 <div className='flex items-center flex-wrap gap-2'> 
-                    {project.categories.map(category => (
-                        <Tech category={category} />
+                    {project.categories.map((category, index) => (
+                        <Tech category={category} key={index}/>
                     ))}
                 </div>
             </div>
+            <PortableText value={project.body} components={RichTextComponents}/>
         </div>
     </div>
   )
