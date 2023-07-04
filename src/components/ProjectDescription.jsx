@@ -27,7 +27,7 @@ function ProjectDescription({ project }) {
                         }
                         {project.liveLink &&
                             <Link href='/contact' className='btn_secondary transition-all duration-500 fade-out text-center'>
-                                View projects
+                                Live Link
                             </Link>
                         }
                     </div>
