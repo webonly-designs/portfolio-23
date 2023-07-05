@@ -21,12 +21,12 @@ function ProjectDescription({ project }) {
                      
                     <div className='flex items-center gap-4'>
                         {project.gitLink && 
-                            <Link href='/contact' className='btn_primary transition-all duration-500 fade-out text-center'>
+                            <Link href={project.gitLink} className='btn_primary transition-all duration-500 fade-out text-center'>
                                 GitHub Link
                             </Link>
                         }
                         {project.liveLink &&
-                            <Link href='/contact' className='btn_secondary transition-all duration-500 fade-out text-center'>
+                            <Link href={project.liveLink} className='btn_secondary transition-all duration-500 fade-out text-center'>
                                 Live Link
                             </Link>
                         }
