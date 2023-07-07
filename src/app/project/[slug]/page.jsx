@@ -13,3 +13,5 @@ async function Project({params}) {
 }
 
 export default Project
+
+export const dynamic = 'force-dynamic'
