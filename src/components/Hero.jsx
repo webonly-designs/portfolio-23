@@ -21,7 +21,7 @@ function Hero() {
                 <Link href='/contact' className='btn_primary transition-all duration-500 fade-out'>
                     Get in touch
                 </Link>
-                <Link href='/contact' className='btn_secondary transition-all duration-500 fade-out'>
+                <Link href='/projects' className='btn_secondary transition-all duration-500 fade-out'>
                     View projects
                 </Link>
             </div>
